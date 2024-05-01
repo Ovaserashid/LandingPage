@@ -1,19 +1,20 @@
 body{
-    display: flex;
-    flex-direction: column;
-    /* padding-left: 32px; */
-    /* padding-right: 32px; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* align-items: center; */
-    justify-content: space-between;
     padding: 0;
     margin: 0;
     background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1100px;
 }
 .headbox{
     background-color: #1F2937;
     padding: 16px 75px;
-    flex: 1 1 auto;
 }
 .header{
     display: flex;
@@ -61,7 +62,7 @@ body{
     align-items: center;
     color: #F9FAF8;
     flex: 0 0 auto;
-    margin-left: 200px;
+    margin-left: 50px;
 }
 ul{
     display: flex;
@@ -91,8 +92,7 @@ button{
     justify-content: space-between;
     align-items: center;
     background-color:#F9FAF8;
-    /* padding: 16px 75px; */
-    flex: 1 1 auto;
+    padding: 16px 75px;   
 }
 .mid1heading{
     font-size: 36px;
@@ -104,33 +104,30 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
-    margin: 35px 0px 110px;
+    gap: 12px;
+    margin: 50px 0px 110px;
     flex: 0 0 auto;
-    /* padding-left: 100px; */
-}
-.cardimg{
-    width: 160px;
-    height: 160px;
-    border-radius: 10px;
-    border: 4px solid #3882F6;
 }
 .card{
     width: 170px;
     height: 170px;
-    /* padding: 16px; */
-    text-align: center;
-    
+    padding: 16px;
+    text-align: center;  
 }
+.cardimg{
+    width: 160px;
+    height: 170px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+}
+
 .mid2box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 16px 75px;
-    flex: 1 1 auto;
-    
+    padding: 16px 75px;   
 }
 .quote{
     display: flex;
@@ -154,4 +151,55 @@ button{
     font-family:'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: 800;
+}
+.mid3box{
+    background-color:#F9FAF8;
+    padding: 60px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actionbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    color:#F9FAF8;
+    flex: 1;
+}
+.leftaction h5{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+.leftaction p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.secondbutton{
+    font-size: 12px;
+    padding: 4px 12px;
+    border: 2px solid white;
+}
+.leftaction{
+    width: 400px;
+    flex: 0 0 auto;
+}
+.rightaction{
+    width: 100px;
+    flex: 0 0 auto;
+}
+.footbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+.footbox div{
+    font-size: 14px;
+    color:#F9FAF8;
+    padding: 30px 0px;
 }
