@@ -63,10 +63,14 @@ body{
     color: #F9FAF8;
     flex: 0 0 auto;
     margin-left: 50px;
+    border-radius: 10px;
 }
 .rightbox img{
     width: 450px;
     height: 250px;
+}
+img{
+    border-radius: 10px;
 }
 ul{
     display: flex;
@@ -118,19 +122,19 @@ button{
     padding: 16px;
     text-align:center;  
 }
-.cardimg{
+/* .cardimg{
     width: 160px;
     height: 170px;
     border-radius: 10px;
-    border: 4px solid #3882F6;
-}
+    border: 2px solid #3882F6;
+} */
 .card p{
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-style: italic;
 }
 .cardimg img{
     width:160px;
     height: 170px;
+    border-color: #3882F6;
 }
 
 .mid2box{
@@ -194,7 +198,7 @@ button{
 .secondbutton{
     font-size: 12px;
     padding: 4px 12px;
-    border: 2px solid white;
+    border-color: #F9FAF8;
 }
 .leftaction{
     width: 400px;
